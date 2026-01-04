@@ -1,0 +1,28 @@
+carbs:
+  cereal:
+    - choose 1:
+      - 5/6 cup mixed berry cereal
+      - 5/6 cup corn flakes cereal
+  # 45g brown rice = 170g sweet potato
+  brown rice:
+    upper: 1 cup
+    lower: 1.25 cup
+    rest: 0.75 cup
+
+protein:
+  - 3 eggs (1 yolk)
+  - 4 oz 90/10 ground beef
+  - 1 cod/haddock/tilapia fillet
+  - 7-8 black tiger shrimps
+
+dairy:
+  - 1 cup fat free milk
+
+veggies:
+  - baby bok choy
+  - baby broccoli
+  - baby spinach
+  - choi sum
+
+snacks:
+  - 2.5 piece lily's dark chocolate
