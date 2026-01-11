@@ -11,3 +11,7 @@ Right now, **potato** is my personal diet log. It helps me:
 *Why "potato"? Because it's one of the most satiating foods, hehe*
 
 ## Changelog
+
+### 2026-01-11
+- add cabbage
+- add chicken breast
