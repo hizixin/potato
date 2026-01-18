@@ -12,6 +12,11 @@ Right now, **potato** is my personal diet log. It helps me:
 
 ## Changelog
 
+### 2026-01-18
+- add rainbow chard
+- add siggis
+- add tomatoes
+
 ### 2026-01-11
 - add fried chicken breast
 - add nappa cabbage

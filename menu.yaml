@@ -10,7 +10,7 @@ carbs:
     rest: 0.75 cup
 
 protein:
-  - 3 eggs (1 yolk)
+  - 1 egg
   - choose 1:
     - 4 oz 90/10 ground beef
     - 4 oz realgood lightly breaded chicken breast
@@ -19,6 +19,7 @@ protein:
 
 dairy:
   - 1 cup fat free milk
+  - 1 cup siggi's plain nonfat skyr
 
 veggies:
   - baby bok choy
@@ -26,6 +27,10 @@ veggies:
   - baby spinach
   - choi sum
   - nappa cabbage
+  - rainbow chard
+
+fruits:
+  - tomatoes
 
 snacks:
   - 2.5 piece lily's dark chocolate

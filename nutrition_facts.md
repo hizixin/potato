@@ -5,6 +5,7 @@
 | carb | trader joe's corn flakes cereal | 36 | 3 | 0 | 1.5 | cup | 160 |
 | carb | whole foods brown rice long grain | 34 | 3 | 1 | 45 | g | 160 |
 | dairy | organic valley grass fed fat free milk | 12 | 8 | 0 | 1 | cup | 90 |
+| dairy | siggi's plain nonfat skyr | 6 | 16 | 0 | 1 | cup | 90 |
 | protein | 90/10 ground beef | 0 | 23 | 11 | 113 | g | 200 |
 | protein | changing seas black tiger shrimp | 0 | 18 | 1 | 5 | shrimp | 80 |
 | protein | egg | 0 | 6 | 5 | 1 | egg | 70 |
