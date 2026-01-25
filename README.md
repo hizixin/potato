@@ -12,6 +12,11 @@ Right now, **potato** is my personal diet log. It helps me:
 
 ## Changelog
 
+### 2026-01-25
+- add avocado
+- add top sirloin
+- reduce protein portion
+
 ### 2026-01-18
 - add chard
 - add siggis

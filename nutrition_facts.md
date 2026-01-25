@@ -8,6 +8,8 @@
 | dairy & egg | egg | 0 | 6 | 5 | 1 | egg | 70 |
 | dairy & egg | organic valley 100% grassfed fat free milk | 12 | 8 | 0 | 1 | cup | 90 |
 | dairy & egg | siggi's plain nonfat skyr | 6 | 16 | 0 | 1 | cup | 90 |
+| fat | avocado | 4 | 1 | 8 | 50 | g | 80 |
+| protein | beef top sirloin steak | 0 | 22 | 5.5 | 100 | g | 140 |
 | protein | changing seas black tiger shrimp 16/20 | 0 | 18 | 1 | 5 | shrimp | 80 |
 | protein | ground beef 90/10 | 0 | 23 | 11 | 113 | g | 200 |
 | protein | realgood lightly breaded chicken breast | 4 | 21 | 5 | 113 | g | 120 |
