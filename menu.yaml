@@ -5,17 +5,20 @@ carbs:
       - 5/6 cup corn flakes cereal
   # 45g brown rice = 170g sweet potato
   brown rice:
-    upper: 1 cup
-    lower: 1.25 cup
-    rest: 0.75 cup
+    upper: 135g
+    lower: 180g
+    rest: 90g
 
 protein:
   - 1 egg
-  - choose 1:
-    - 4 oz 90/10 ground beef
-    - 4 oz realgood lightly breaded chicken breast
-  - 1 cod/haddock/tilapia fillet
-  - 7-8 black tiger shrimps
+  - choose 2:
+    - 110g beef top sirloin steak
+    - 110g realgood lightly breaded chicken breast
+    - 1 cod/haddock/tilapia fillet
+    - 5 black tiger shrimps
+
+fat:
+  - 75g avocado
 
 dairy:
   - 1 cup fat free milk

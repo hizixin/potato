@@ -6,7 +6,9 @@
 | carb | whole foods brown rice long grain | 34 | 3 | 1 | 45 | g | 160 |
 | dairy | organic valley grass fed fat free milk | 12 | 8 | 0 | 1 | cup | 90 |
 | dairy | siggi's plain nonfat skyr | 6 | 16 | 0 | 1 | cup | 90 |
+| fat | avocado | 4 | 1 | 8 | 50 | g | 80 |
 | protein | 90/10 ground beef | 0 | 23 | 11 | 113 | g | 200 |
+| protein | beef top sirloin steak trimmed | 0 | 23 | 5 | 100 | g | 150 |
 | protein | changing seas black tiger shrimp | 0 | 18 | 1 | 5 | shrimp | 80 |
 | protein | egg | 0 | 6 | 5 | 1 | egg | 70 |
 | protein | realgood lightly breaded chicken breast | 4 | 21 | 5 | 113 | g | 130 |
