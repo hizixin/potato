@@ -1,8 +1,4 @@
 carbs:
-  cereal:
-    - choose 1:
-      - 5/6 cup mixed berry cereal
-      - 5/6 cup corn flakes cereal
   # 45g brown rice = 170g sweet potato
   brown rice:
     upper: 135g
@@ -13,8 +9,11 @@ protein:
   - 1 egg
   - choose 2:
     - 110g beef top sirloin steak
-    - 110g realgood lightly breaded chicken breast
-    - 1 cod/haddock/tilapia fillet
+    - 110g chicken breast
+    - choose 1:
+      - 1 cod fillet
+      - 1 haddock fillet
+      - 1 tilapia fillet
     - 5 black tiger shrimps
 
 fat:
@@ -25,15 +24,20 @@ dairy:
   - 1 cup siggi's plain nonfat skyr
 
 veggies:
-  - baby bok choy
-  - baby broccoli
-  - baby spinach
-  - choi sum
-  - nappa cabbage
-  - rainbow chard
+  # - (baby) broccoli
+  # - baby bok choy
+  # - baby spinach
+  # - choi sum
+  # - nappa cabbage
+  # - rainbow chard
 
 fruits:
-  - tomatoes
+  # - cucumber
+  # - tomatoes
 
 snacks:
   - 2.5 piece lily's dark chocolate
+
+extra:
+  calories: 150
+  fat: 5

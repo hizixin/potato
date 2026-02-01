@@ -12,6 +12,13 @@ Right now, **potato** is my personal diet log. It helps me:
 
 ## Changelog
 
+### 2026-02-01
+- add broccoli
+- add cucumber
+- add poached chicken breast
+- remove cereal
+- remove fried chicken breast
+
 ### 2026-01-25
 - add avocado
 - add beef top sirloin steak
