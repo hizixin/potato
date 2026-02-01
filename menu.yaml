@@ -1,8 +1,4 @@
 carbs:
-  cereal:
-    - choose 1:
-      - mixed berry cereal 5/6 cup
-      - corn flakes cereal 5/6 cup
   brown rice:
     upper: 135g
     lower: 180g
@@ -11,26 +7,34 @@ carbs:
 protein:
   - 1 egg
   - choose 2:
-    - 100g top sirloin steak trimmed
-    - 100g realgood lightly breaded chicken breast
-    - 1 cod/haddock/tilapia fillet
+    - 110g top sirloin steak
+    - 110g chicken breast
+    - choose 1:
+      - 1 cod fillet
+      - 1 haddock fillet
+      - 1 tilapia fillet
     - 5 black tiger shrimps
 
 fat:
   - half medium avocado
-  - avocado oil spray
 
 dairy:
-  - organic valley 100% grass fed fat free milk
-  - siggi's plain nonfat skyr
+  - 1 cup organic valley fat free grassmilk
+  - 1 cup siggi's plain nonfat skyr
 
 veggie:
-  - baby bok choy 2 heads
-  - baby broccoli 1 bunch
-  - baby spinach 5 oz
-  - choi sum 1 bunch
-  - nappa cabbage
-  - rainbow chard 1 bunch
+  # - baby bok choy 2 heads
+  # - baby broccoli 1 bunch
+  # - baby spinach 5 oz
+  # - choi sum 1 bunch
+  # - nappa cabbage
+  # - rainbow chard 1 bunch
 
 fruit:
-  - 85g sunset cherry/grape tomatoes
+  - choose 1:
+    - 85g sunset flavor bombs cherry tomatoes
+    - 1 mini cucumber
+
+extra:
+  calories: 150
+  fat: 5
