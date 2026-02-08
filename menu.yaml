@@ -1,4 +1,6 @@
 carbs:
+  # 45g brown rice = 40g rolled oats = 170g sweet potato
+  # 90g brown rice = 80g ww pasta + 120g sauce
   brown rice:
     upper: 135g
     lower: 180g
@@ -26,6 +28,7 @@ veggie:
   # - baby bok choy 2 heads
   # - baby broccoli 1 bunch
   # - baby spinach 5 oz
+  # - cauliflower
   # - choi sum 1 bunch
   # - nappa cabbage
   # - rainbow chard 1 bunch

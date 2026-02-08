@@ -12,6 +12,10 @@ Right now, **potato** is my personal diet log. It helps me:
 
 ## Changelog
 
+### 2026-02-08
+- add carb subs
+- add cauliflower
+
 ### 2026-02-01
 - add cucumber
 - add poached chicken breast
