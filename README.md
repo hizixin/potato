@@ -12,6 +12,9 @@ Right now, **potato** is my personal diet log. It helps me:
 
 ## Changelog
 
+### 2026-02-08
+- add cauliflower
+
 ### 2026-02-01
 - add boiled chicken breast
 - add broccoli
