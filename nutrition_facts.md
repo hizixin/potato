@@ -4,6 +4,7 @@
 | carb | sweet potato | 20 | 1.5 | 0 | 100 | g | 90 |
 | carb | trader joe's corn flakes cereal | 36 | 3 | 0 | 1.5 | cup | 160 |
 | carb | whole foods brown rice long grain | 34 | 3 | 1 | 45 | g | 160 |
+| carb | whole foods old fashioned rolled oats | 27 | 5 | 2.5 | 40 | g | 150 |
 | dairy | organic valley grass fed fat free milk | 12 | 8 | 0 | 1 | cup | 90 |
 | dairy | siggi's plain nonfat skyr | 6 | 16 | 0 | 1 | cup | 90 |
 | fat | avocado | 4 | 1 | 8 | 50 | g | 80 |

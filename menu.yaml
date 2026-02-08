@@ -1,5 +1,5 @@
 carbs:
-  # 45g brown rice = 170g sweet potato
+  # 45g brown rice = 40g rolled oats = 170g sweet potato
   brown rice:
     upper: 135g
     lower: 180g
@@ -27,6 +27,7 @@ veggies:
   # - (baby) broccoli
   # - baby bok choy
   # - baby spinach
+  # - cauliflower
   # - choi sum
   # - nappa cabbage
   # - rainbow chard
