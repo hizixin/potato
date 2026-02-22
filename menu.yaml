@@ -7,9 +7,11 @@ carbs:
 
 protein:
   - choose 2:
-    - 110g beef top sirloin steak
-    - 5 black tiger shrimps
-    - 110g chicken breast
+    - 120g beef top sirloin steak
+    - 120g chicken breast
+    - choose 1:
+      - 5 black tiger shrimps
+      - 3 colossal white shrimps
     - choose 1:
       - 1 cod fillet
       - 1 haddock fillet
@@ -25,8 +27,8 @@ dairy & egg:
 
 veggies:  # not in calorie counts, ~500g
   # - (baby) broccoli
+  # - (baby) spinach
   # - baby bok choy
-  # - baby spinach
   # - cabbage
   # - cauliflower
   # - choi sum
