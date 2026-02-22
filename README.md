@@ -12,6 +12,11 @@ Right now, **potato** is my personal diet log. It helps me:
 
 ## Changelog
 
+### 2026-02-22
+- add {black,blue,rasp,straw}berries
+- add grapefruit
+- add spinach
+
 ### 2026-02-08
 - add cauliflower
 - add oats

@@ -1,6 +1,6 @@
 carbs:
   # 45g brown rice = 40g rolled oats = 170g sweet potato
-  brown rice:
+  brown rice lundberg:
     upper: 135g
     lower: 180g
     rest: 90g
@@ -8,8 +8,8 @@ carbs:
 protein:
   - 1 egg
   - choose 2:
-    - 110g beef top sirloin steak
-    - 110g chicken breast
+    - 120g beef top sirloin steak
+    - 120g chicken breast
     - choose 1:
       - 1 cod fillet
       - 1 haddock fillet
@@ -25,15 +25,17 @@ dairy:
 
 veggies:
   # - (baby) broccoli
+  # - (baby) spinach
   # - baby bok choy
-  # - baby spinach
   # - cauliflower
   # - choi sum
   # - nappa cabbage
   # - rainbow chard
 
 fruits:
+  # - {black,blue,rasp,straw}berries
   # - cucumber
+  # - grapefruit
   # - tomatoes
 
 snacks:

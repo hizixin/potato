@@ -91,7 +91,10 @@ class NutritionDB:
         for name in self.items:
             name_words = set(name.split())
             overlap = len(text_words & name_words)
-            score = overlap / len(name_words) if name_words else 0
+            score = max(
+                overlap / len(name_words) if name_words else 0,
+                overlap / len(text_words) if text_words else 0,
+            )
             if score > best_score:
                 best, best_score = name, score
 
