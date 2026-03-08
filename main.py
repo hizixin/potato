@@ -70,7 +70,7 @@ def format_row(day, totals):
     total_cal = p_cal + c_cal + f_cal
 
     return (
-        f"| {day.capitalize()} | {totals.cal:.0f} kcal | "
+        f"| {day.capitalize()} | {round(totals.cal, -1):.0f} kcal | "
         f"{totals.c:.0f}g ({c_cal/total_cal*100:.0f}%) | "
         f"{totals.p:.0f}g ({p_cal/total_cal*100:.0f}%) | "
         f"{totals.f:.0f}g ({f_cal/total_cal*100:.0f}%) |"

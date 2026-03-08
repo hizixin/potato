@@ -1,6 +1,10 @@
 | aisle | item | carbs (g) | protein (g) | fat (g) | serving_amt | serving_unit | calories (kcal) |
 |-------|------|-----------|-------------|---------|-------------|--------------|-----------------|
+| carb | lundberg black pearl rice | 33 | 4 | 1 | 45 | g | 160 |
 | carb | lundberg long grain brown rice | 34 | 3 | 1.5 | 45 | g | 170 |
+| carb | lundberg red jasmine rice | 35 | 3 | 1.5 | 45 | g | 150 |
+| carb | lundberg wild blend rice | 35 | 4 | 1 | 45 | g | 160 |
+| carb | lundberg wild rice | 35 | 7 | 0.5 | 45 | g | 160 |
 | carb | sweet potato | 17 | 1.5 | 0.5 | 100 | g | 80 |
 | carb | whole foods old fashioned rolled oats | 27 | 5 | 2.5 | 40 | g | 150 |
 | dairy & egg | egg | 0 | 6 | 5 | 1 | egg | 70 |

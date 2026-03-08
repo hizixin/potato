@@ -12,6 +12,9 @@ Right now, **potato** is my personal diet log. It helps me:
 
 ## Changelog
 
+### 2026-03-08
+- add black, red & wild rice
+
 ### 2026-02-22
 - add spinach
 
