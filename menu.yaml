@@ -28,6 +28,7 @@ dairy & egg:
 veggies:  # not in calorie counts, ~500g
   # - (baby) broccoli
   # - (baby) spinach
+  # - asparagus
   # - baby bok choy
   # - cabbage
   # - cauliflower

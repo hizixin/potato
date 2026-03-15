@@ -19,4 +19,5 @@
 | protein | whole foods cod fillet | 0 | 27 | 1 | 1 | fillet | 120 |
 | protein | whole foods colossal easy peel white shrimp 8/12 | 0 | 18 | 1 | 3 | shrimp | 80 |
 | protein | whole foods haddock fillet | 0 | 24 | 1 | 1 | fillet | 110 |
+| protein | whole foods sea scallops | 4 | 14 | 0.5 | 4 | scallop | 80 |
 | protein | whole foods tilapia fillet | 0 | 23 | 2 | 1 | fillet | 110 |
