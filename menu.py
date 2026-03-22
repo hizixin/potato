@@ -2,7 +2,27 @@
 
 import re
 import yaml
+from dataclasses import dataclass, field
 from nutrition import Nutrients, parse_quantity
+
+
+@dataclass
+class Carbs:
+    """Per-day carb grams with an optional weighted blend."""
+
+    grams: dict = field(default_factory=dict)  # {day: float}
+    blend: dict = field(default_factory=dict)  # {name: weight 0.0–1.0}
+
+    def for_day(self, day):
+        """Return [(grams, item_name), ...] for a given day."""
+        total = self.grams.get(day)
+        if not total:
+            return []
+        return [(total * w, name) for name, w in self.blend.items()]
+
+    @property
+    def names(self):
+        return list(self.blend.keys())
 
 
 class Menu:
@@ -12,8 +32,7 @@ class Menu:
 
     def __init__(self, filepath):
         self.extra = Nutrients()
-        self.carbs_per_day = {}
-        self.carbs_item = None
+        self._carbs = []
         self.fixed = []  # [(items, ...)]
         self.options = []  # [(items, n, group_id)]
         self.choose_groups = {}  # {group_id: n}
@@ -40,14 +59,31 @@ class Menu:
         )
 
     def _parse_carbs(self, carbs):
-        """Parse carbs: section (per-day amounts)."""
+        """Parse carbs: section (per-day grams + optional blend)."""
         if not carbs:
             return
-        for item_name, amounts in carbs.items():
-            self.carbs_item = item_name
-            self.carbs_per_day = {
-                day: parse_quantity(str(val))[0] for day, val in amounts.items()
-            }
+        for key, vals in carbs.items():
+            pcts = vals.get("blend")
+
+            if pcts:
+                total = sum(pcts.values())
+                if total != 100:
+                    raise ValueError(
+                        f"carbs.{key}.blend: percentages sum to {total}%, expected 100%"
+                    )
+                blend = {f"{n} {key}": p / 100 for n, p in pcts.items()}
+            else:
+                blend = {key: 1.0}
+
+            self._carbs.append(
+                Carbs(
+                    grams={
+                        d: parse_quantity(str(v))[0]
+                        for d, v in vals.get("grams", {}).items()
+                    },
+                    blend=blend,
+                )
+            )
 
     def _parse_sections(self, data):
         """Parse food sections. Supports 2 levels of nesting."""
@@ -75,6 +111,13 @@ class Menu:
                                 nested = list(opt.values())[0]
                                 self.options.append((nested, n, choose_id))
 
+    def carbs_for_day(self, day):
+        """Return [(grams, item_name), ...] for a given day."""
+        result = []
+        for c in self._carbs:
+            result.extend(c.for_day(day))
+        return result
+
     def all_items(self):
         """All food items (for validation)."""
         items = []
@@ -82,6 +125,6 @@ class Menu:
             items.extend(group)
         for group, _, _ in self.options:
             items.extend(group)
-        if self.carbs_item:
-            items.append(self.carbs_item)
+        for c in self._carbs:
+            items.extend(c.names)
         return items

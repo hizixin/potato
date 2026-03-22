@@ -17,8 +17,8 @@ def check_menu(db, menu):
             + "\n".join(f"   - {m}" for m in missing)
         )
 
-    for id, n in menu.choose_groups.items():
-        opts = [g for g, _, i in menu.options if i == id]
+    for gid, n in menu.choose_groups.items():
+        opts = [g for g, _, i in menu.options if i == gid]
         if len(opts) < n:
             raise ValueError(f"[choose {n}] has only {len(opts)} option(s)")
 
@@ -38,15 +38,15 @@ def calculate(db, menu, day):
 
     # Options: group by id, average all options, multiply by N
     grouped = {}
-    for group, n, id in menu.options:
-        grouped.setdefault(id, (n, []))[1].append(get_nutrients(db, group))
+    for group, n, gid in menu.options:
+        grouped.setdefault(gid, (n, []))[1].append(get_nutrients(db, group))
 
     for _, (n, choices) in grouped.items():
         totals = totals + Nutrients.avg(choices) * n
 
-    # Per-day carbs (e.g., brown rice)
-    if menu.carbs_item and (grams := menu.carbs_per_day.get(day)):
-        totals = totals + db.get(f"{grams}g {menu.carbs_item}")
+    # Per-day carbs (weighted blend)
+    for grams, name in menu.carbs_for_day(day):
+        totals = totals + db.get(f"{grams}g {name}")
 
     # Extra from YAML (add calories from c/p/f)
     extra = menu.extra

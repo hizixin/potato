@@ -1,9 +1,14 @@
 carbs:
   # 45g brown rice = 40g rolled oats = 200g sweet potato
-  brown rice:
-    upper: 135g
-    lower: 180g
-    rest: 90g
+  rice:
+    grams:
+      upper: 135g
+      lower: 180g
+      rest: 90g
+    blend:  # %
+      brown: 50
+      wild blend: 40
+      wild: 10
 
 protein:
   - choose 2:
