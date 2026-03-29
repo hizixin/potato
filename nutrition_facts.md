@@ -11,13 +11,15 @@
 | dairy & egg | organic valley 100% grassfed fat free milk | 12 | 8 | 0 | 1 | cup | 90 |
 | dairy & egg | siggi's plain nonfat skyr | 6 | 16 | 0 | 1 | cup | 90 |
 | fat | avocado | 4 | 1 | 8 | 50 | g | 80 |
+| protein | beef loin flank steak | 0 | 20 | 9.5 | 100 | g | 170 |
 | protein | beef top sirloin steak | 0 | 22 | 5.5 | 100 | g | 140 |
-| protein | changing seas black tiger shrimp 16/20 | 0 | 18 | 1 | 5 | shrimp | 80 |
+| protein | changing seas black tiger shrimp 16/20 | 0 | 18 | 1 | 113 | g | 80 |
 | protein | chicken breast | 0 | 25 | 3 | 113 | g | 130 |
 | protein | ground beef 90/10 | 0 | 23 | 11 | 113 | g | 200 |
 | protein | realgood lightly breaded chicken breast | 4 | 21 | 5 | 113 | g | 120 |
+| protein | trader joe's argentinian red shrimp 21/25 | 0 | 14 | 0.5 | 113 | g | 60 |
 | protein | whole foods cod fillet | 0 | 27 | 1 | 1 | fillet | 120 |
-| protein | whole foods colossal easy peel white shrimp 8/12 | 0 | 18 | 1 | 3 | shrimp | 80 |
+| protein | whole foods colossal easy peel white shrimp 8/12 | 0 | 18 | 1 | 113 | g | 80 |
 | protein | whole foods haddock fillet | 0 | 24 | 1 | 1 | fillet | 110 |
 | protein | whole foods sea scallops | 4 | 14 | 0.5 | 4 | scallop | 80 |
 | protein | whole foods tilapia fillet | 0 | 23 | 2 | 1 | fillet | 110 |
