@@ -36,7 +36,9 @@ veggies:  # not in calorie counts, ~500g
   # - cabbage
   # - cauliflower
   # - choi sum
+  # - mushroom
   # - rainbow chard
+  # - sweet pepper
 
 extra:
   calories: 200  # veggies, fruits, snacks

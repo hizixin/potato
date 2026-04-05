@@ -12,6 +12,10 @@ Right now, **potato** is my personal diet log. It helps me:
 
 ## Changelog
 
+### 2026-04-05
+- add mushroom
+- add sweet pepper
+
 ### 2026-03-29
 - add argentinian red shrimp
 - add flank
