@@ -8,6 +8,7 @@
 | carb | sweet potato | 17 | 1.5 | 0.5 | 100 | g | 80 |
 | carb | whole foods old fashioned rolled oats | 27 | 5 | 2.5 | 40 | g | 150 |
 | dairy & egg | egg | 0 | 6 | 5 | 1 | egg | 70 |
+| dairy & egg | fage total 0% | 5 | 16 | 0 | 1 | cup | 80 |
 | dairy & egg | organic valley 100% grassfed fat free milk | 12 | 8 | 0 | 1 | cup | 90 |
 | dairy & egg | siggi's plain nonfat skyr | 6 | 16 | 0 | 1 | cup | 90 |
 | fat | avocado | 4 | 1 | 8 | 50 | g | 80 |
