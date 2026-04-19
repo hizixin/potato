@@ -19,6 +19,7 @@
 | protein | ground beef 90/10 | 0 | 23 | 11 | 113 | g | 200 |
 | protein | realgood lightly breaded chicken breast | 4 | 21 | 5 | 113 | g | 120 |
 | protein | trader joe's argentinian red shrimp 21/25 | 0 | 14 | 0.5 | 113 | g | 60 |
+| protein | trader joe's ground beef 96/4 | 0 | 24 | 4.5 | 113 | g | 140 |
 | protein | whole foods cod fillet | 0 | 27 | 1 | 1 | fillet | 120 |
 | protein | whole foods colossal easy peel white shrimp 8/12 | 0 | 18 | 1 | 113 | g | 80 |
 | protein | whole foods haddock fillet | 0 | 24 | 1 | 1 | fillet | 110 |

@@ -7,14 +7,16 @@ carbs:
       rest: 90g
     blend:  # %
       brown: 50
-      wild blend: 40
+      black: 40
       wild: 10
 
 protein:
   - choose 2:
-    - 120g beef top sirloin steak
     - 120g chicken breast
     - 120g shrimp
+    - choose 1:
+      - 120g beef top sirloin steak
+      - 112g ground beef 96/4
     - choose 1:
       - 1 cod fillet
       - 1 haddock fillet
@@ -43,5 +45,5 @@ veggies:  # not in calorie counts, ~500g
   # - sweet pepper
 
 extra:
-  calories: 200  # veggies, fruits, snacks
+  calories: 200  # veggies, fruits, condiments, snacks
   fat: 5

@@ -12,6 +12,9 @@ Right now, **potato** is my personal diet log. It helps me:
 
 ## Changelog
 
+### 2026-04-19
+- add ground beef 96/4
+
 ### 2026-04-12
 - add fage
 
