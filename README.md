@@ -12,6 +12,10 @@ Right now, **potato** is my personal diet log. It helps me:
 
 ## Changelog
 
+### 2026-05-03
+`my cut ends! 🥳`
+- add whole wheat bread
+
 ### 2026-04-26
 - add lettuce
 
