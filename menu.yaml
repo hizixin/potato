@@ -6,8 +6,8 @@ carbs:
       lower: 180g
       rest: 90g
     blend:  # %
-      brown: 50
-      black: 40
+      brown: 70
+      black: 20
       wild: 10
 
 protein:
@@ -44,6 +44,7 @@ veggies:  # not in calorie counts, ~500g
   # - mushroom
   # - rainbow chard
   # - sweet pepper
+  # - zucchini
 
 extra:
   calories: 200  # veggies, fruits, condiments, snacks
